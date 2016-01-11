@@ -19,7 +19,6 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = ">= 2.1.0"
 
-  spec.add_dependency "sinatra", "~> 1.4.5"
   spec.add_dependency "mime-types"
 
   spec.add_development_dependency "webmock", "~> 1.20.4"
@@ -32,7 +31,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "pry"
   spec.add_development_dependency "aws-sdk"
   spec.add_development_dependency "rack-test", "~> 0.6.2"
-  spec.add_development_dependency "rails", "~> 4.1.8"
+  spec.add_development_dependency "rails", "5.0.0.beta1"
   spec.add_development_dependency "sqlite3"
   spec.add_development_dependency "selenium-webdriver"
   spec.add_development_dependency "yard"
